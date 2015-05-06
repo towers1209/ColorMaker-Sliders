@@ -5,8 +5,15 @@
 //  Created by Loreto E. Torres on 5/5/15.
 //  Copyright (c) 2015 towers1209. All rights reserved.
 //
-//  The basic concept is adapted from the exercise app ColorMaker that uses three toggle switches for turning on or off the RGB color components.
-//  So instead of simply a choice of 0 or 1 for the r, g, b color compoments in
+//  The basic concept is adapted from the exercise app ColorMaker that uses three toggle 
+//  switches for turning on or off the RGB color components.
+//
+//  So instead of simply a choice of 0 or 1 for the r, g, b color components, floating point
+//  values are returned by the value property of each slider.  
+//
+//  Each floating point value is then converted to a CGFloat type using the following pattern:
+//      let f: Float = 0.5
+//      let cgf: CGFloat = CGFloat(f)
 
 import UIKit
 

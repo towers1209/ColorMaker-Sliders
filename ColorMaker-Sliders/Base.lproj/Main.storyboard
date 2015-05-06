@@ -178,7 +178,7 @@
                                 </variation>
                             </view>
                         </subviews>
-                        <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="tEd-t7-FSk" secondAttribute="bottom" constant="97" id="0j8-q5-60H"/>
                             <constraint firstItem="T3Z-N8-2fI" firstAttribute="leading" secondItem="J9R-f5-Uib" secondAttribute="leading" id="1Jd-R3-NoQ"/>
